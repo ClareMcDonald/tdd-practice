@@ -157,6 +157,12 @@ export function getLastItem(array) {
 
 // Ask yourself: even if you cannot predict the result exactly, what _do_ you know about what it should return? Use that expectation to write your test
 
+/*Test that it is
+1. a number
+2. between 0 - 5
+    expected true
+    actual greater than 0 or less than 5 */
+
 export function getRandomNumber() {
     return true;
 }
